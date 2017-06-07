@@ -1,11 +1,13 @@
+// @flow
+
 import Link from 'next/link';
 
 export default () =>
   <header>
-    <Link><a href="/grids">Grids</a></Link>
-    <Link><a href="/color">Color</a></Link>
-    <Link><a href="/typography">Typography</a></Link>
-    <Link><a href="/visuals">Visuals</a></Link>
-    <Link><a href="/motion">Motion</a></Link>
-    <Link><a href="/components">Components</a></Link>
+    <Link href="/grids">Grids</Link>
+    <Link href="/color">Color</Link>
+    <Link href="/typography">Typography</Link>
+    <Link href="/visuals">Visuals</Link>
+    <Link href="/motion">Motion</Link>
+    <Link href="/components">Components</Link>
   </header>;

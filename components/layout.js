@@ -1,8 +1,14 @@
+// @flow
+
 import Head from 'next/head';
 import Nav from './nav';
 import Footer from './footer';
 
-export default ({ children }) =>
+type Props = {
+  children?: Element<any>,
+};
+
+export default ({ children }: Props) =>
   <div>
     <Head>
       <title>Systema</title>

@@ -6,11 +6,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "flow": "flow"
   },
   "dependencies": {
     "next": "3.0.0-beta11",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.47.0",
+    "flow-typed": "^2.1.2"
   }
 }
