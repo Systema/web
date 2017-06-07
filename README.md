@@ -1,6 +1,4 @@
-# systema
-
-`ˈsɪstəma/`
+![Systema](./logo.png)
 
 ## Installation
 
