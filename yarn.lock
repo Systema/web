@@ -3495,6 +3495,10 @@ webpack@2.6.0:
     webpack-sources "^0.2.3"
     yargs "^6.0.0"
 
+wercker-base.css@^0.1.0-alpha:
+  version "0.1.0-alpha"
+  resolved "https://registry.yarnpkg.com/wercker-base.css/-/wercker-base.css-0.1.0-alpha.tgz#ca193eba63edea7c724182e8b475c08cd4c66924"
+
 whatwg-fetch@>=0.10.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"

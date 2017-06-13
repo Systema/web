@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import Nav from './nav';
 import Footer from './footer';
+import base from 'wercker-base.css/dist/main.css';
 
 type Props = {
   children?: Element<any>,
@@ -20,4 +21,5 @@ export default ({ children }: Props) =>
     {children}
 
     <Footer />
+    <style jsx global>{base}</style>
   </div>;

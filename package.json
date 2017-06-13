@@ -13,7 +13,8 @@
     "next": "3.0.0-beta11",
     "normalize.css": "^7.0.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "wercker-base.css": "^0.1.0-alpha"
   },
   "devDependencies": {
     "babel-loader": "^7.0.0",
