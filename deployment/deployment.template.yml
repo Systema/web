@@ -3,6 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: web
+  namespace: systema
   labels:
     branch: ${WERCKER_GIT_BRANCH}
     commit: ${WERCKER_GIT_COMMIT}

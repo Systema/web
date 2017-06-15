@@ -120,4 +120,4 @@ deploy-kube:
         server: $KUBERNETES_MASTER
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
-        command: --namespace="systema" apply -f web.yml
+        command: apply -f web.yml

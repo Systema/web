@@ -3,6 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: web
+  namespace: systema
 spec:
   rules:
     - host: ${TPL_INGRESS_HOST}
