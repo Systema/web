@@ -22,6 +22,12 @@ module.exports = {
       ],
     });
 
+    config.module.rules.push({
+      test: /\.js(\?[^?]*)?$/,
+      loader: 'babel-loader',
+      include: /node_modules\/wercker-component-.*/,
+    });
+
     return config;
   },
 };

@@ -14,14 +14,20 @@
     "normalize.css": "^7.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "wercker-base.css": "0.0.4"
+    "wercker-base.css": "0.0.4",
+    "wercker-component-button": "0.1.0-alpha.3",
+    "wercker-grid.css": "^0.1.0-alpha"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "flow-bin": "^0.47.0",
     "flow-typed": "^2.1.2",
+    "postcss-calc": "^6.0.0",
+    "postcss-import": "^10.0.0",
     "postcss-loader": "^2.0.5",
+    "postcss-simple-vars": "^4.0.0",
     "raw-loader": "^0.5.1"
   }
 }
